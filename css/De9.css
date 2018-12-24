@@ -6,4 +6,103 @@
 /* Thư */
 /* Tú */
 /* Tuấn */
+.services h3{
+	font-size: 25px;
+	color: 	#ff9900;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.services .line{
+	margin: 0 auto;
+	width: 80%;
+	height: 2px;
+	background: #ff9900;
+}
+.services .line2{
+	display: block;
+	margin: 0 auto;	
+	margin-top: 5px;
+	width: 80%;
+	height: 2px;
+	background: #ff9900;
+
+}
+.icon img{
+	position: absolute;
+	margin-top: -28px;
+	margin-left: 47%;
+	width: 50px;
+	height: 50px;
+	border-radius: 100px;
+}
+.card-group{
+
+}
+.card img{
+}	
+.card-body h5{
+	color: #d77501;
+}
+.card-body a.rental{
+	display: block;
+	height: 100%;
+	color: #d77501;
+	font-weight: bold;
+	background-color: red;
+}
+.photo h3{
+	font-size: 25px;
+	color: 	#ff9900;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.photo .line{
+	margin: 0 auto;
+	width: 80%;
+	height: 2px;
+	background: #ff9900;
+}
+.photo .line2{
+	display: block;
+	margin: 0 auto;	
+	margin-top: 5px;
+	width: 80%;
+	height: 2px;
+	background: #ff9900;
+}
+.icon2 img{
+	position: absolute;
+	margin-top: -28px;
+	margin-left: 47%;
+	width: 50px;
+	height: 50px;
+	border-radius: 100px;
+}
+.end .line{
+	margin: 0 auto;
+	width: 80%;
+	height: 2px;
+	background: #ff9900;
+}
+.end .line2{
+	display: block;
+	margin: 0 auto;	
+	margin-top: 5px;
+	width: 80%;
+	height: 2px;
+	background: #ff9900;
+}
+.icon3 img{
+	position: absolute;
+	margin-top: -28px;
+	margin-left: 47%;
+	width: 50px;
+	height: 50px;
+	border-radius: 100px;
+}
+
 /* Phê */
