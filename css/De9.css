@@ -1,9 +1,349 @@
-.container-fluid{
-	height: 100vh;
-	background: cyan;
-}
 /* Đạt */
+.dat{
+	background: black;
+}
+a img{
+	width: 90px;
+	height: 90px;
+	position: absolute;
+	top: 5px;
+	left: 450px;
+}
+a img:hover{
+	transform: scale(1.4);
+}
+#navbarNav ul li{
+	padding-left: 20px;
+	background: black;
+}
+#navbarNav ul li.photo{
+	padding-left: 150px
+}
+#navbarNav ul li a{
+	font-size: 21px;
+	color: #D77503;
+}
+#navbarNav ul li a:hover{
+	color: blue;
+	transform: scale(1.1);
+}
+/* Thư */
+.thu{
+	height: 600px;
+	background-image: url('../images/khu-pho-co-hoi-an-quang-nam-1.jpg');
+	background-size: cover;
+	position: relative;
+}
+.motorbiking{
+	position: absolute;
+	bottom: 14%;
+}
+p.content{
+	width: 90%;
+	position: absolute;
+	bottom: 0;
+}
+a.icon-next{
+	width: 3%;
+	box-sizing: border-box;
+	position: absolute;
+	bottom: 3%;
+	right: 1%;
+}
+.fa-chevron-right{
+	font-size: 30px;
+	padding-left: 20%;
+	 color: white;
+}
+a.prev{
+	bottom: 9%;
+	transform: rotate(180deg);
+}
+/* Tú */
+.motobike{
+	display: block;
+	margin: 0 auto;
+	position: relative;
+}
+.vien{
+	border:1px solid orange;
+}
+.motobike img.img{
+	display: block;
+	position: absolute;
+	top:30%;
+	left:43%;
+	overflow: hidden;
+}
+.motobike h4:hover{
+	transform: rotate(720deg);
+	transition: all 1s ease-in-out;
+}
+.motobike img.img:hover{
+	transition: all 1s ease; 
+	transform: scale(1.5);
+}
+.tu .cnt1{
+	position: relative;
+	display: block;
+	overflow: hidden;
+}
+.tu .cnt1 .text{
+	border-radius: 6px;
+	position: absolute;
+	top: 45%;
+	left: 37%;
+	opacity: 0.8;
+	z-index: 2;
+}
+.tu .cnt1 img.picture{
+	z-index: 1;
+	transition: all 1s ease; 
+}
+.tu .cnt1 img.picture:hover{
+	transform: scale(1.5);
+	-ms-transform: scale(1.5);
+	-moz-transform: scale(1.5);
+	-o-transform: scale(1.5);
+	-webkit-transform: scale(1.5);
+}
+/* Tuấn */
+.card-titles{
+	position: absolute;
+	bottom: -1%;
+}
+a.rental{
+	position: absolute;
+	bottom: 3%;
+	right: 8%;
+	display: block;
+	width: 23%;
+}
+.card{
+	overflow: hidden;
+}
+.card img.card-img-top{
+	width: 100%;
+	height: 100%;
+	transition: all 1s ease; 
+}
+.card img.pic-card:hover{
+	transform: scale(1.5);
+	-ms-transform: scale(1.5);
+	-moz-transform: scale(1.5);
+	-o-transform: scale(1.5);
+	-webkit-transform: scale(1.5);
+}
+.vien-end{
+	position: absolute;
+	bottom: 40%;
+}
+/* Phê */
+.contact{
+	height: 680px;
+	background: #11663a;
+	box-sizing: border-box;
+}
+.contact .rows1{
+	padding-top: 20px;
+	height: 600px;
+}
+.contact .rows1 p.titles{
+	text-indent: 30px;
+}
+form.forms{
+	width: 100%;
+	background: #23221b;
+	position: absolute;
+	right: 0%;
+	box-sizing: border-box;
+}
+form.forms input{
+	width:85%;
+	border: 0.5px solid orange;
+	box-sizing: border-box;
+	position: absolute;
+	left: 11%;
+	border-left: none;
+	border-radius: 0 5px 5px  0;
+	z-index: 2;
+}
+form.forms .icon-form{
+	margin-left: 5%;
+	border: 0.5px solid orange;
+	box-sizing: border-box;
+	border-right: none;
+	height: 37px;
+	border-radius: 5px;
+	z-index: 1;
+	width: 10%;
+}
+form.forms .form-group1{
+	margin-top: 20px;
+}
+form.forms .message{
+	position: relative;
+}
+form.forms input.messa{
+	border-radius: 0 5px 0 0;
+}
+form.forms textarea.mess{
+	width: 85%;
+	position: absolute;
+	border: 0.5px solid orange;
+	border-top: none;
+	left: 11%;
+	bottom: -224%;
+	z-index: 3;
+	border-radius: 0;
+}
+form.forms button.submit{
+	display: block;
+	margin-top: 15%;
+	margin-right: 5%;
+	margin-bottom: 2%;
+}
+.contact .rows2{
+	height: 80px;
+	background: #eded3b;
+}
+.contact .rows2 .footer{
+	line-height: 80px;
+}
+@media screen and (max-width: 1200px){
+/* Đạt */
+a img{
+	width: 70px;
+	height: 70px;
+	left: 370px;
+	top: 10px;
+}
+#navbarNav ul li{
+	padding-left: 20px;
+}
+#navbarNav ul li a{
+	font-size: 15px;
+	color: #D77503;
+}
 /* Thư */
 /* Tú */
 /* Tuấn */
 /* Phê */
+}
+@media screen and (max-width: 992px){
+/* Đạt */
+a img{
+	width: 70px;
+	height: 70px;
+	left: 500px;
+	top: 10px;
+}
+#navbarNav ul li.photo{
+	padding-left: 20px
+}
+/* Thư */
+/* Tú */
+/* Tuấn */
+.card-titles{
+	left: 8%;
+	bottom: -0.5%;
+}
+a.rental{
+	bottom: 1%;
+	right: 8%;
+	width: 10%;
+}
+/* Phê */
+	.contact{
+		width: 100%;
+	}
+	form.forms button.submit{
+		margin-top: 17%;
+	}
+}
+@media screen and (max-width: 768px){
+/* Đạt */
+a img{
+	width: 70px;
+	height: 70px;
+	left: 270px;
+	top: 10px;
+}
+#navbarNav ul li.photo{
+	padding-left: 20px
+}
+#navbarNav ul li a:hover{
+	color: red;
+}
+#navbarNav ul li{
+	
+}
+.navbar-toggler{
+	background: blue;
+}
+/* Thư */
+.motorbiking{
+	bottom: 18%;
+}
+a.icon-next{
+	width: 4%;
+
+}
+/* Tú */
+/* Tuấn */
+/* Phê */
+	.contact{
+		width: 100%;
+		height: 1220px;
+	}
+	.contact .rows1{
+		height: 1130px;
+	}
+	.contact .contact-info{
+		height: 530px;
+	}
+	.contact .contact-us{
+		height: 600px;
+	}
+	form.forms{
+		width: 90%;
+		right: 5%;
+	}
+	form.forms button.submit{
+		margin-top: 15%;
+	}
+	.contact .rows2{
+		height: 100px;
+	}
+	.contact .rows2 .footer{
+		line-height: 30px;
+		font-size: 16px;
+		margin-top: 20px;
+	}
+}
+@media screen and (max-width: 576px){
+/* Đạt */
+/* Thư */
+.motorbiking{
+	bottom: 22%;
+}
+p.content{
+	width: 95%;
+}
+a.icon-next{
+	display: none;
+}
+/* Tú */
+/* Tuấn */
+a.rental{
+	width: 18%;
+	bottom: 2%;
+}
+/* Phê */
+	.contact{
+		width: 100%;
+	}
+	.contact .contact-us{
+		margin-top: 4%;
+	}
+}
