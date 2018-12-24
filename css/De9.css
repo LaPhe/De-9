@@ -3,6 +3,89 @@
 	background: cyan;
 }
 /* Đạt */
+.container{
+	background: black;
+}
+a img{
+	width: 90px;
+	height: 90px;
+	position: absolute;
+	top: 5px;
+	left: 450px;
+}
+a img:hover{
+	transform: scale(1.4);
+}
+#navbarNav ul li{
+	padding-left: 20px;
+	background: black;
+}
+#navbarNav ul li.photo{
+	padding-left: 150px
+}
+#navbarNav ul li a{
+	font-size: 21px;
+	color: #D77503;
+}
+#navbarNav ul li a:hover{
+	color: blue;
+	transform: scale(1.1);
+
+}
+/*thiet bi 1200px*/
+@media screen and (max-width: 1200px) {
+a img{
+	width: 70px;
+	height: 70px;
+	left: 370px;
+	top: 10px;
+}
+#navbarNav ul li{
+	padding-left: 20px;
+}
+#navbarNav ul li a{
+	font-size: 15px;
+	color: #D77503;
+}
+}
+/*thiet bi 992px*/
+@media screen and (max-width: 992px) {
+	a img{
+	width: 70px;
+	height: 70px;
+	left: 500px;
+	top: 10px;
+}
+#navbarNav ul li.photo{
+	padding-left: 20px
+}
+}
+/*thiet bi 768px*/
+@media screen and (max-width: 768px) {
+.container{
+	
+}
+a img{
+	width: 70px;
+	height: 70px;
+	left: 270px;
+	top: 10px;
+}
+#navbarNav ul li.photo{
+	padding-left: 20px
+}
+#navbarNav ul li a:hover{
+	color: red;
+}
+#navbarNav ul li{
+	
+}
+.navbar-toggler{
+	background: blue;
+}
+}
+
+
 /* Thư */
 /* Tú */
 /* Tuấn */
