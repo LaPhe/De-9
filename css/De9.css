@@ -4,6 +4,34 @@
 }
 /* Đạt */
 /* Thư */
+.container-slideshow{
+  float: left;
+  width: 100%;
+}
+.container-slideshow .carousel-caption{
+  margin: 0;
+  padding: 0;
+  float: left;
+  width:80%;
+  background-color: #ffffff;
+  opacity: 0.6;
+}
+.carousel-control-prev-icon {
+    background:black;
+    width:20px;
+    height:40px;
+    position: absolute;
+    right: -500%;
+    top:90%;
+}
+.carousel-control-next-icon{
+   background:black;
+    width:20px;
+    height:40px;
+    position: absolute;
+    left: 22%;
+    top:93%;
+}
 /* Tú */
 /* Tuấn */
 /* Phê */
